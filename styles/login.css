@@ -1,0 +1,43 @@
+.login-page{
+    height: 600px;
+    background-color: #253031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-image-login{
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;  
+    align-self: center;
+}
+
+.login-carson{
+    align-self: center;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: small;
+}
+
+
+.sign-up, .login-text{
+    width: 100%;
+    align-self: flex-end;
+    padding-bottom: 5px;
+    background-color: #253031;
+    text-align: center;
+}
+
+@media only screen and (min-width: 700px){
+    .profile-image-login{
+        width: 200px;
+        height: 200px;  
+    }
+
+    .login-carson{
+        font-size: large;
+    }
+}

@@ -1,0 +1,124 @@
+.profile-page{
+    background-color: #253031;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-name{
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+    width:100%
+}
+
+.profile-cover{
+    display: flex;
+    height: 300px;
+    background-image: url("../images/cover-pic.jpg");
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-profile-pic{
+    display: flex;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.profile-buttons{
+    display: grid;
+    grid-template-columns: 40% 40% auto;
+    padding-bottom: 5px;
+    width: 100%;
+}
+@media only screen and (min-width: 500px){
+    .profile-buttons{
+        width: 500px;
+        padding-bottom: 5px;
+        justify-self: center;
+    }
+}
+
+.button{
+    border:none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    justify-self: center;
+}
+
+.add-to-story{
+
+    background-color: #2D87B4;
+
+}
+
+.edit-profile, .extra-button{
+    background-color: #2D3939;
+}
+
+.extra-button{
+    width:80%;
+}
+
+.home-photos{
+    width: 100%;
+    display: grid;
+    height: 40px;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 500px){
+    .home-photos{
+        width: 500px;
+        justify-self: center;
+    }
+
+    .details{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.gray-line{
+    height: 1px;
+    width: 100%;
+    background-color: darkgray;
+}
+
+.details{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 100%;
+    height: 150px;
+    padding-left: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.details-title{
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 700px){
+    .details{
+        justify-content: center;
+    }
+}
+
